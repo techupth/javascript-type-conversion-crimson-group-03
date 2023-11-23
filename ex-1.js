@@ -1,8 +1,8 @@
 let accountBalance = 400;
 let depositAmountFromUser = "10";
-
-accountBalance = accountBalance + depositAmountFromUser;
+console.log(typeof depositAmountFromUser);
+accountBalance = accountBalance + Number(depositAmountFromUser);
 
 let accountBalanceMessage = "Your account balance is " + accountBalance;
 
-console.log(accountBalanceMessage);
+console.log(accountBalanceMessage); // 410
